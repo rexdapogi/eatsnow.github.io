@@ -1,4 +1,5 @@
 * { margin: 0; padding: 0 }
+html { scroll-behavior: smooth }
 
 h1 { font-size:50px }
 h2 { font-size:35px }
@@ -9,10 +10,24 @@ h6 { font-size:12px }
 p { font-size:12px }
 
 .a {
-    color: purple;
+    color: #fff;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     margin-top: 25%;
+}
+
+.header {
+    position: fixed;
+    top:0;
+    width: 100%;
+    color:#fff;
+}
+
+.footer {
+    position:fixed;
+    bottom:0;
+    width:100%;
+    color:#fff;
 }
